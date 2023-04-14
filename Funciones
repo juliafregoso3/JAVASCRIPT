@@ -1,0 +1,11 @@
+
+//FUNCIÓN QUEUE
+
+function nextInLine(arr, elem) {
+    arr.push(elem);
+    return arr.shift();
+}
+
+console.log(nextInLine([2,2,3], 4));
+
+

@@ -1,11 +1,10 @@
+//Curso Javascript FreeCodeCamp (https://www.youtube.com/watch?v=ivdTnPl1ND0&list=PLV2T2dz968waRLen_NuRFDHF972HrqkM8&index=7&t=10564s)
 
 //FUNCIÓN QUEUE
 
 function nextInLine(arr, elem) {
-    arr.push(elem);
-    return arr.shift();
+  arr.push(elem);
+  return arr.shift();
 }
 
-console.log(nextInLine([2,2,3], 4));
-
-
+console.log(nextInLine([2, 2, 3], 4));
